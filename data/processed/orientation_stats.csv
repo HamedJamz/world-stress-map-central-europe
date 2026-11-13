@@ -1,0 +1,5 @@
+group,n,mean_deg,R,circ_std_deg,ci95_low,ci95_high,rayleigh_p
+Central Europe A-C,1019,154.94,0.494,34.045,152.534,157.308,0.0
+Central Europe A-C (quality-weighted),1019,156.168,0.503,33.58,,,0.0
+Germany A-C,297,168.297,0.561,30.807,164.522,172.068,0.0
+Central Europe all qualities,2005,155.768,0.443,36.565,153.887,157.626,0.0

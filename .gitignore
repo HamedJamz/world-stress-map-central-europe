@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# large raw data (downloaded by run_analysis.py)
+data/raw/WSM_Database_2025.csv
+
+# large generated files
+figures/*.svg
+figures/*.pdf
+outputs/*.geojson
+
+# OS
+.DS_Store

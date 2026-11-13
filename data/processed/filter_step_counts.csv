@@ -1,0 +1,8 @@
+step,n_records
+WSM 2025 raw file,100842
+after removing missing/invalid coordinates,100672
+  ...of which with an SHmax azimuth,89624
+inside Central Europe window,2216
+"Central Europe, quality A-C",1019
+inside Germany (Natural Earth polygon),791
+"Germany, quality A-C",297

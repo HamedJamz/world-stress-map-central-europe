@@ -1,0 +1,22 @@
+{
+  "n_raw": 100842,
+  "n_missing_coordinates": 170,
+  "n_out_of_range_coordinates": 0,
+  "missing_coordinates_quality": {
+    "Xmi": 170
+  },
+  "n_azi_999_no_orientation": 11048,
+  "azi_999_quality": {
+    "E": 10996,
+    "Xmi": 36,
+    "Xru": 8,
+    "Xne": 7,
+    "B": 1
+  },
+  "n_azi_out_of_range": 0,
+  "n_azi_equal_180_converted_to_0": 243,
+  "n_duplicate_ids": 0,
+  "n_identical_location_azi_type_depth_quality": 1629,
+  "n_clean": 100672,
+  "n_clean_with_azimuth": 89624
+}

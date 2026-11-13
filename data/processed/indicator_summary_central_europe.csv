@@ -1,0 +1,11 @@
+TYPE,description,n_records,n_A_to_C,n_with_azimuth,median_depth_km,max_depth_km
+FMS,Single earthquake focal mechanism,921,546,834,8.0,33.0
+BO,Borehole breakouts,875,343,765,1.59,6.14
+OC,Overcoring / strain relief,129,10,129,0.01,2.5
+HF,Hydraulic fracturing (sub-vertical wells),90,51,89,0.44,9.0
+DIF,Drilling-induced tensile fractures,57,35,56,2.36,4.9
+GFI,Inversion of geological fault-slip data,48,3,47,0.0,0.0
+FMF,Formal inversion of several focal mechanisms,40,31,36,5.9,18.4
+BS,Borehole slotter,35,0,35,0.01,0.8
+SWL,Seismic anisotropy in laboratory,20,0,13,1.85,2.22
+FMA,Average of focal mechanisms,1,0,1,18.0,18.0

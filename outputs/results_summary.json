@@ -1,0 +1,231 @@
+{
+  "run_date": "2026-11-13",
+  "data": {
+    "name": "World Stress Map Database Release 2025",
+    "doi": "https://doi.org/10.5880/WSM.2025.001",
+    "file": "WSM_Database_2025.csv",
+    "url": "https://datapub.gfz.de/download/10.5880.WSM.2025.001-Scbwez/WSM_Database_2025.csv",
+    "sha256": "3b24aa5b33b251b6c52ee25bcafe3d23d036deb1c38e1caae51f63b808605d1b",
+    "license": "CC BY 4.0"
+  },
+  "cleaning": {
+    "n_raw": 100842,
+    "n_missing_coordinates": 170,
+    "n_out_of_range_coordinates": 0,
+    "missing_coordinates_quality": {
+      "Xmi": 170
+    },
+    "n_azi_999_no_orientation": 11048,
+    "azi_999_quality": {
+      "E": 10996,
+      "Xmi": 36,
+      "Xru": 8,
+      "Xne": 7,
+      "B": 1
+    },
+    "n_azi_out_of_range": 0,
+    "n_azi_equal_180_converted_to_0": 243,
+    "n_duplicate_ids": 0,
+    "n_identical_location_azi_type_depth_quality": 1629,
+    "n_clean": 100672,
+    "n_clean_with_azimuth": 89624
+  },
+  "central_europe": {
+    "bbox_lon_lat": [
+      2.5,
+      45.5,
+      19.5,
+      55.5
+    ],
+    "n_all": 2216,
+    "n_AC": 1019,
+    "quality_counts": {
+      "A": 96,
+      "B": 173,
+      "C": 750,
+      "D": 673,
+      "E": 467,
+      "Xmi": 1,
+      "Xne": 20,
+      "Xru": 36
+    },
+    "indicator_counts": {
+      "FMS": 921,
+      "BO": 875,
+      "OC": 129,
+      "HF": 90,
+      "DIF": 57,
+      "GFI": 48,
+      "FMF": 40,
+      "BS": 35,
+      "SWL": 20,
+      "FMA": 1
+    },
+    "indicator_counts_AC": {
+      "FMS": 546,
+      "BO": 343,
+      "HF": 51,
+      "DIF": 35,
+      "FMF": 31,
+      "OC": 10,
+      "GFI": 3
+    },
+    "n_without_azimuth": 211,
+    "without_azimuth_by_quality": {
+      "E": 204,
+      "Xne": 7
+    },
+    "axial_mean_AC_deg": 154.9,
+    "axial_mean_AC_compass": "NNW-SSE",
+    "R_AC": 0.494,
+    "circ_std_AC_deg": 34.0,
+    "ci95_AC_deg": [
+      152.534,
+      157.308
+    ],
+    "rayleigh_Z": 248.2,
+    "rayleigh_p": 1.536247694611422e-106,
+    "naive_arithmetic_mean_AC_deg": 116.2,
+    "axial_mean_all_qualities_deg": 155.8,
+    "R_all_qualities": 0.443,
+    "regime_AC": {
+      "U": 391,
+      "SS": 318,
+      "NF": 145,
+      "TF": 103,
+      "TS": 32,
+      "NS": 30
+    },
+    "median_depth_AC_km": 4.0
+  },
+  "germany": {
+    "n_polygon_all": 791,
+    "n_country_field": 786,
+    "n_AC": 297,
+    "quality_counts": {
+      "A": 55,
+      "B": 70,
+      "C": 172,
+      "D": 301,
+      "E": 181,
+      "Xmi": 1,
+      "Xne": 8,
+      "Xru": 3
+    },
+    "indicator_counts_AC": {
+      "BO": 169,
+      "FMS": 80,
+      "HF": 27,
+      "DIF": 9,
+      "FMF": 6,
+      "OC": 5,
+      "GFI": 1
+    },
+    "axial_mean_AC_deg": 168.3,
+    "axial_mean_AC_compass": "NNW-SSE",
+    "R_AC": 0.561,
+    "n_in_polygon_but_other_country_field": 13,
+    "n_country_field_germany_outside_polygon": 8
+  },
+  "orientation_by_type_AC": [
+    {
+      "group": "BO",
+      "n": 343,
+      "mean_deg": 171.383,
+      "R": 0.49,
+      "circ_std_deg": 34.216,
+      "ci95_low": 167.257,
+      "ci95_high": 175.33,
+      "rayleigh_p": 0.0
+    },
+    {
+      "group": "DIF",
+      "n": 35,
+      "mean_deg": 163.758,
+      "R": 0.804,
+      "circ_std_deg": 18.916,
+      "ci95_low": 157.632,
+      "ci95_high": 169.726,
+      "rayleigh_p": 0.0
+    },
+    {
+      "group": "FMF",
+      "n": 31,
+      "mean_deg": 147.669,
+      "R": 0.706,
+      "circ_std_deg": 23.898,
+      "ci95_low": 139.313,
+      "ci95_high": 156.043,
+      "rayleigh_p": 0.0
+    },
+    {
+      "group": "FMS",
+      "n": 546,
+      "mean_deg": 146.124,
+      "R": 0.527,
+      "circ_std_deg": 32.424,
+      "ci95_low": 143.216,
+      "ci95_high": 149.075,
+      "rayleigh_p": 0.0
+    },
+    {
+      "group": "GFI",
+      "n": 3,
+      "mean_deg": 159.991,
+      "R": 0.367,
+      "circ_std_deg": 40.55,
+      "ci95_low": NaN,
+      "ci95_high": NaN,
+      "rayleigh_p": 0.705
+    },
+    {
+      "group": "HF",
+      "n": 51,
+      "mean_deg": 148.42,
+      "R": 0.635,
+      "circ_std_deg": 27.291,
+      "ci95_low": 139.676,
+      "ci95_high": 156.722,
+      "rayleigh_p": 0.0
+    },
+    {
+      "group": "OC",
+      "n": 10,
+      "mean_deg": 154.871,
+      "R": 0.687,
+      "circ_std_deg": 24.83,
+      "ci95_low": 140.939,
+      "ci95_high": 168.149,
+      "rayleigh_p": 0.006
+    }
+  ],
+  "grid_cells_1deg_n_ge_5": 52,
+  "casmo_inspired_examples": [
+    {
+      "example": "casmo_example_switzerland_FM_AC",
+      "region": "Switzerland",
+      "quality": "C",
+      "indicator": "FM*",
+      "n_selected": 242,
+      "axial_mean_deg": 135.1
+    },
+    {
+      "example": "casmo_example_germany_BO_AB",
+      "region": "Germany",
+      "quality": "B",
+      "indicator": "BO",
+      "n_selected": 88,
+      "axial_mean_deg": 179.4
+    },
+    {
+      "example": "casmo_example_upper_rhine_graben_AC",
+      "region": "Upper Rhine Graben area",
+      "quality": "C",
+      "indicator": "all",
+      "n_selected": 161,
+      "axial_mean_deg": 155.9
+    }
+  ],
+  "checks_passed": 25,
+  "checks_total": 25
+}

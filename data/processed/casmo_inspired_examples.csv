@@ -1,0 +1,4 @@
+example,region,quality,indicator,n_selected,axial_mean_deg
+casmo_example_switzerland_FM_AC,Switzerland,C,FM*,242,135.1
+casmo_example_germany_BO_AB,Germany,B,BO,88,179.4
+casmo_example_upper_rhine_graben_AC,Upper Rhine Graben area,C,all,161,155.9
