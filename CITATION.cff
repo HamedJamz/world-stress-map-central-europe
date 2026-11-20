@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Crustal stress patterns in Central Europe: a reproducible workflow for the World Stress Map 2025"
+type: software
+version: 0.1.0
+date-released: 2026-11-13
+authors:
+  - family-names: Jamalzehi
+    given-names: Hamed
+    affiliation: "Technische Universität Berlin"
+license: MIT
+repository-code: "https://github.com/HamedJamz/world-stress-map-central-europe"
+keywords:
+  - World Stress Map
+  - crustal stress
+  - SHmax
+  - geoscientific databases
+  - data quality filtering
+  - Central Europe

@@ -134,3 +134,7 @@ and not CASMO. Please cite the WSM database (see Data) if you use these data.
 - Heidbach, O., Rajabi, M. (2026). Patterns of contemporary horizontal stress orientation in the Earth's crust derived from the World Stress Map Database 2025. *Solid Earth*, 17(5), 735–745.
 - Müller, B., et al. (1992). Regional patterns of tectonic stress in Europe. *J. Geophys. Res.*, 97(B8), 11783–11803.
 - Mardia, K. V., Jupp, P. E. (2000). *Directional Statistics*. Wiley.
+
+## Licence
+
+Code: MIT (see `LICENSE`). The World Stress Map 2025 data keep their own licence, CC BY 4.0 by their authors (https://doi.org/10.5880/WSM.2025.001).
